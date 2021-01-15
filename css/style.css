@@ -1,4 +1,11 @@
 :root{
     --font: 'Raleway', sans-serif;
     --osans: 'Open Sans', sans-serif;
+    --blue: #08A6E4;
+    --green: #55DFB4;
+    --red: #FB3B64;
+    --grey: #00000029
+}
+*{
+    box-sizing: border-box;
 }
