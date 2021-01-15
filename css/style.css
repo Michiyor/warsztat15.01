@@ -15,7 +15,7 @@ html, body {
     scroll-behavior: smooth;
 }
 .container {
-    max-width: 1626px;
+    max-width: 1352px;
     margin: 0 auto;
 }
 
@@ -107,7 +107,6 @@ html, body {
     border-radius: 40px;
     border: none;
     text-decoration: none;
-    font-family: var(--open-sans);
 }
 
 .btn--primary {
@@ -115,6 +114,7 @@ html, body {
     border-radius: 40px;
     box-shadow: 3px 10px 14px var(--grey);
     font-size: 16px;
+    font-family: var(--open-sans);
 }
 
 .btn--large {
@@ -123,6 +123,59 @@ html, body {
 
 .hero__image{
     width: 100%;
-    height: auto;
 }
+/*statystyki*/
+.stat{
+    margin-top: 100px;
+    text-align: center;
+}
+.stat__title{
+    font-size: 36px;
+    color: var(--black);
+    font-family: var(--font-raleway);
+}
+.stat__container{
+    max-width: 800px;
+    margin: 100px auto 120px;
+    display: inline-flex;
+    justify-content:space-between;
 
+}
+.stat__el{max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-raleway);
+    padding: 0 185px;
+}
+.stat__dot{
+    width: 62.71px;
+    height: 62.71px;
+    background-color: var(--red);
+    border-radius: 50%;
+    position: relative;
+}
+.eye{
+    background-color: var(--blue);
+}
+.cat{
+    background-color: var(--green);
+}
+.stat__dot img{
+    position: absolute;
+}
+.stat__nr{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .1875rem;
+    margin-top: 13px;
+    font-weight: 800;
+}
+.stat__text {
+    font-size: 17px;
+    font-family: var(--font-raleway);
+    color: #A5A5A5;
+    margin-top: 19px;
+}
