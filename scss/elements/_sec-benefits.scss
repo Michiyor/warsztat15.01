@@ -1,0 +1,187 @@
+.benefits {
+  background: #F7F7F7;
+  padding: 100px 0;
+}
+
+.benefits__container {
+  max-width: 1124px;
+  padding: 0 100px;
+
+}
+
+.benefits__text {
+  border-radius: 5px;
+  background-color: var(--white);
+  border: 1px solid #e8e9ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 37px;
+
+
+}
+
+.benefits__pic .benefits__mac-pic {
+  margin-right: 117px;
+  margin-bottom: 38px;
+}
+
+.benefits__pic {
+  position: relative;
+
+}
+
+.benefits__pic .benefits__mac-pic img {
+  width: 386px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.benefits__pic .benefits__mac-pic::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-color: var(--red);
+  display: block;
+  border-radius: 40px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  transform: rotate(45deg);
+}
+
+.benefits__art-text {
+}
+
+.benefits__title-art {
+  font-size: 36px;
+  font-family: var(--font-raleway);
+}
+
+.benefits__text-art {
+  font-family: var(--open-sans);
+  font-size: 16px;
+}
+
+.border-red::after {
+  content: "";
+  width: 332px;
+  height: 3px;
+  background: var(--red);
+  border-radius: 8px;
+  margin-top: 50px;
+  display: block;
+}
+
+.benefits__mac-pic {
+  position: center;
+  padding: 113px;
+}
+
+.benefits__pic-tel{
+  position: relative;
+}
+.benefits__text-tel{
+  border-radius: 5px;
+  background-color: var(--white);
+  border: 1px solid #e8e9ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.benefits__iphone-pic{
+  position: center;
+}
+.benefits__pic-tel .benefits__pic-tel img {
+  width: 386px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.benefits__pic-tel .benefits__iphone-pic::before {
+  content: "";
+  width: 320px;
+  height: 320px;
+  background-color: var(--blue);
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 600px;
+}
+.benefits__pic-tel .benefits__iphone-pic {
+  margin-right: 117px;
+  margin-bottom: 38px;
+}
+.benefits__pic-tel .benefits__iphone-pic img {
+  width: 386px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.border-blue::after{
+  content: "";
+  width: 332px;
+  height: 3px;
+  background: var(--blue);
+  border-radius: 8px;
+  margin-top: 50px;
+  display: block;
+}
+
+
+.benefits__pic-trumpet{
+  position: relative;
+
+}
+.benefits__pic-trumpet .benefits__trumpet-pic::before {
+  content: "";
+  width: 440px;
+  height: 370px;
+  background-color: var(--green);
+  display: block;
+  border-radius: 5px;
+  position: absolute;
+  right: 45px;
+  border: 1px solid #E8E9ED;
+  bottom: -1px;
+}
+.benefits__pic-trumpet .benefits__trumpet-pic {
+  margin-right: 117px;
+}
+.benefits__pic-trumpet .benefits__trumpet-pic img {
+  width: 386px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.benefits__trumpet-pic{
+  position: center;
+}
+
+.benefits__text-trumpet{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.benefits__trumpet-text{
+  border: 1px solid #E8E9ED;
+  background-color: var(--white);
+  height: 370px;
+  width: 623px;
+}
+.border-green::after{
+  content: "";
+  width: 332px;
+  height: 3px;
+  background: var(--green);
+  border-radius: 8px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.benefits__recognation>div{
+  margin: 0;
+}

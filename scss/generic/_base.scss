@@ -1,0 +1,18 @@
+:root {
+  --font-raleway: 'Raleway', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+  --blue: #08A6E4;
+  --green: #55DFB4;
+  --red: #FB3B64;
+  --grey: #00000029;
+  --white: #fff;
+  --black: #000
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
