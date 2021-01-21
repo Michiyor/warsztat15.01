@@ -476,6 +476,7 @@ html, body {
 .option__info {}
 .option__info-yes {
     display: flex;
+    margin: 10px;
 }
 .pricing__btn {
     width: 150px;
