@@ -1,4 +1,8 @@
 .container {
   max-width: 1352px;
   margin: 0 auto;
+  @media #{$media-mobile}{
+    width: 100%;
+    padding: 0 15px;
+  }
 }

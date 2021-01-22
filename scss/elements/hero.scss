@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media #{$media-mobile} {
+    display: block;
+  }
 }
 
 .hero__div {
@@ -13,6 +16,9 @@
   font-size: 49px;
   font-family: var(--font-raleway);
   color: var(--black);
+  @media #{$media-mobile} {
+    display: none;
+  }
 }
 
 .hero__text {
@@ -46,4 +52,7 @@
 
 .hero__image {
   width: 100%;
+  @media #{$media-mobile} {
+
+  }
 }

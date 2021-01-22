@@ -1,5 +1,13 @@
-.pricing {}
-.pricing__container {}
+.pricing {
+  @media #{$media-mobile}{
+    display: block;
+  }
+}
+.pricing__container {
+  @media #{$media-mobile}{
+    display: inline-block;
+  }
+}
 .pricing__title {
   font-family: var(--font-raleway);
   font-size: 36px;
@@ -10,6 +18,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media #{$media-mobile}{
+    display: inline-block;
+  }
 }
 .pricing__option {
   border: 1px solid #FB3B64;
@@ -22,6 +33,11 @@
   width: 370px;
   position: relative;
   transition: 1s;
+  @media #{$media-mobile}{
+    margin-bottom: 2em;
+    display: inline-flex;
+    flex-direction: row;
+  }
 }
 .pricing__option2 {
   border: 1px solid #07ACE6;
@@ -34,6 +50,11 @@
   align-items: center;
   position: relative;
   transition: 1s;
+  @media #{$media-mobile}{
+    margin-bottom: 2em;
+    display: inline-flex;
+    flex-direction: row;
+  }
 }
 .pricing__option3 {
   border: 1px solid #55DFB4;
@@ -46,6 +67,9 @@
   width: 370px;
   position: relative;
   transition: 1s;
+  @media #{$media-mobile}{
+
+  }
 }
 .option__title {
   font-family: var(--font-raleway);
